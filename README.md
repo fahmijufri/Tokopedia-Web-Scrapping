@@ -6,7 +6,7 @@ untuk inspirasi dan code-nya
 
 
 <h2>USAGE</h2>
-<pre>
+```
 <?php
 // require file tokopedia.php
 require('lib/tokopedia.php');
@@ -25,4 +25,4 @@ header('Access-Control-Allow-Origin: *');
 echo json_encode($r, JSON_PRETTY_PRINT);
 
 ?>
-</pre>
+```
